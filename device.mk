@@ -10,7 +10,6 @@ TARGET_IS_VAB := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
-# AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
@@ -41,11 +40,16 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+
 # Device Marketname Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AC \
     SettingsProviderM2012K11AG \
     SettingsProviderM2012K11AI
+
+PRODUCT_PACKAGES += \
+    AliothFrameworks \
+    AliothSystemUI
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30

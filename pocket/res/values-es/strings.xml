@@ -5,4 +5,6 @@
     <string name="pocketmode_short_title">Modo bolsillo</string>
     <string name="pocketmode_summary">Modo bolsillo amigable con la batería</string>
     <string name="pocketmode_description">A diferencia del modo de bolsillo tradicional que verifica constantemente los sensores de proximidad y de luz, este modo solo los verifica cuando el teléfono está en la pantalla de bloqueo. Por lo tanto, la duración de la batería se extenderá y el modo de suspensión profunda se optimizará.\nEn caso de que la pantalla se apague automáticamente después de sacarla del bolsillo, espere unos segundos y todo volverá a funcionar.</string>
+    <string name="pocket_mistouch_prevention_title">Prevención de toques accidentales</string>
+    <string name="pocket_mistouch_prevention_summary">Evita toques accidentales que pueden ocurrir mientras tu teléfono está en tu bolsillo.</string>
 </resources>

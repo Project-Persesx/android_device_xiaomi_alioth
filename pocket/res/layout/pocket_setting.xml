@@ -31,7 +31,8 @@
 
     <SwitchPreference
         android:key="b_pocketmode_sw_pref"
-        android:title="@string/pocketmode_title" />
+        android:title="@string/pocket_mistouch_prevention_title"
+        android:summary="@string/pocket_mistouch_prevention_summary" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="footer_preference"
